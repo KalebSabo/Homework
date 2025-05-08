@@ -1,0 +1,162 @@
+/*
+    Design CSS for the website
+    This CSS file is used to style the website and make it visually appealing.
+
+    List of CSS:
+    
+
+
+
+*/
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding-top: 100px; /* Space for the fixed navbar */
+    color: #333;
+}
+body.front-page {
+    background-image: url('FrontBackground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #ffffff;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    color: #00343d;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: #ffffff;
+    max-width: 800px;
+}
+
+/* Div Classes */
+/* This section styles the div classes used in the website */
+
+div {
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+
+}
+
+/* Home Page */
+/* This section styles the home page of the website */
+
+
+.footer {
+    background-color: #00343d;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 1000px;
+    z-index: 1000;
+}
+
+/* Review Index Section */
+/* This section styles the review index section of the website */
+
+.review-grid-index {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 800px;
+}
+.review-grid-index .review-card {
+    background-color: #e0dbdb;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.review-grid-index .review-card img {
+    max-width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Specific Review Section */
+/* This section styles the specific review section of the website */
+
+
+/* Affiliate Page */
+/* This section styles the affiliate page section of the website */
+
+
+.affiliate-links-list {
+    border: 2px solid #00343d;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #e0dbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+}
+
+
+
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #ceb9b5;
+    padding: 10px 0px;
+    font-size: 32px;
+    font: Georgia;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 1000px;
+    z-index: 1000;
+    border-bottom: 5px solid #00343d;
+}
+
+.navbar a {
+    float: center;
+    display: block;
+    color: white;
+    background-color: #2b85da;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border: 5px solid #080808;
+    margin: 0 10px;
+    border-radius: 20px;
+}
+
+.navbar a:hover {
+    background-color: #dd6b6b;
+    color: white;
+    text-decoration: underline;
+    box-shadow: 5px 5px 5px;
+}
